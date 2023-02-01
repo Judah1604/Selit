@@ -1,0 +1,61 @@
+@import '../base/variables';
+
+#detailsModal {
+
+	.close-btn-modal {
+		display: flex;
+		justify-content: end;
+		align-items: center;
+		padding: 15px;
+
+		button {
+			font-size: 1.5em;
+		}
+	}
+
+	.modal-body {
+		display: flex;
+		align-items: center;
+		gap: 30px;
+
+		.product-img img {
+			width: 600px;
+			height: 430px;
+		}
+
+		.product-details {
+			width: 100%;
+			height: 430px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			gap: 30px;
+			text-align: center;
+
+			h1 {
+				font-size: 3em;
+			}
+
+			.inputs {
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: flex-start;
+				flex-direction: column;
+				gap: 30px;
+
+				div {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					gap: 10px;
+				}
+			}
+			
+			.modal-footer button {
+				padding: 10px;
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400&family=Poppins:wght@500&family=Space+Grotesk:wght@700&family=Poppins&display=swap");
+/* line 3, common.scss */
+html {
+	scroll-behavior: smooth; }
+
+/* line 7, common.scss */
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: #f1efef; }
+
+/* line 12, common.scss */
+.logo {
+	letter-spacing: 1px;
+	font-size: 2.5em;
+	font-family: 'Mukta', sans-serif; }
+
+/* line 18, common.scss */
+.deleted {
+	display: none !important; }
+
+/*# sourceMappingURL=common.css.map */

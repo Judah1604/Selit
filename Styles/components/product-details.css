@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400&family=Poppins:wght@500&family=Space+Grotesk:wght@700&family=Poppins&display=swap");
+/* line 5, product-details.scss */
+#detailsModal .close-btn-modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px; }
+  /* line 11, product-details.scss */
+  #detailsModal .close-btn-modal button {
+    font-size: 1.5em; }
+/* line 16, product-details.scss */
+#detailsModal .modal-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px; }
+  /* line 21, product-details.scss */
+  #detailsModal .modal-body .product-img img {
+    width: 600px;
+    height: 430px; }
+  /* line 26, product-details.scss */
+  #detailsModal .modal-body .product-details {
+    width: 100%;
+    height: 430px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+    text-align: center; }
+    /* line 36, product-details.scss */
+    #detailsModal .modal-body .product-details h1 {
+      font-size: 3em; }
+    /* line 40, product-details.scss */
+    #detailsModal .modal-body .product-details .inputs {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      gap: 30px; }
+      /* line 48, product-details.scss */
+      #detailsModal .modal-body .product-details .inputs div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        gap: 10px; }
+    /* line 56, product-details.scss */
+    #detailsModal .modal-body .product-details .modal-footer button {
+      padding: 10px; }
+
+/*# sourceMappingURL=product-details.css.map */

@@ -1,0 +1,31 @@
+/* line 3, checkoutModal.scss */
+#checkOutModal h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px; }
+/* line 11, checkoutModal.scss */
+#checkOutModal .items .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px; }
+  /* line 17, checkoutModal.scss */
+  #checkOutModal .items .item img {
+    width: 260px;
+    height: 200px; }
+  /* line 22, checkoutModal.scss */
+  #checkOutModal .items .item .info {
+    width: 55%; }
+  /* line 26, checkoutModal.scss */
+  #checkOutModal .items .item .deleteBtn {
+    color: red;
+    font-size: 2.5em;
+    margin-right: 10px; }
+
+/*# sourceMappingURL=checkoutModal.css.map */

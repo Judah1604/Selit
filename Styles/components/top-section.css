@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400&family=Poppins:wght@500&family=Space+Grotesk:wght@700&family=Poppins&display=swap");
+/* line 3, top-section.scss */
+.top-section {
+  background-image: url(../Images/ash-edmonds-0aWZdK8nK2I-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white; }
+  /* line 10, top-section.scss */
+  .top-section h1 {
+    margin: 0;
+    text-align: center; }
+  /* line 15, top-section.scss */
+  .top-section a {
+    color: white !important; }
+  /* line 19, top-section.scss */
+  .top-section .nav-content {
+    padding: 0px 50px; }
+    /* line 22, top-section.scss */
+    .top-section .nav-content .cart {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      gap: 5px;
+      cursor: pointer; }
+      /* line 28, top-section.scss */
+      .top-section .nav-content .cart span {
+        font-size: 1.2em; }
+      /* line 32, top-section.scss */
+      .top-section .nav-content .cart i {
+        font-size: 1.3em;
+        -webkit-transition: 0.3s;
+        transition: 0.3s; }
+        /* line 36, top-section.scss */
+        .top-section .nav-content .cart i:hover {
+          opacity: 0.8; }
+      /* line 41, top-section.scss */
+      .top-section .nav-content .cart .dropdown-item {
+        width: 530px; }
+      /* line 45, top-section.scss */
+      .top-section .nav-content .cart .dropdown-menu {
+        right: 0; }
+        /* line 48, top-section.scss */
+        .top-section .nav-content .cart .dropdown-menu img {
+          height: 120px; }
+        /* line 52, top-section.scss */
+        .top-section .nav-content .cart .dropdown-menu .info {
+          color: white; }
+        /* line 56, top-section.scss */
+        .top-section .nav-content .cart .dropdown-menu .checkOutBtn {
+          margin-left: auto;
+          margin-right: 1em;
+          margin-bottom: 1em;
+          display: none; }
+        /* line 63, top-section.scss */
+        .top-section .nav-content .cart .dropdown-menu .btnCloseCart {
+          font-size: 2em;
+          margin-left: 5em;
+          color: #e9e9e9; }
+    /* line 71, top-section.scss */
+    .top-section .nav-content .warning {
+      color: white;
+      width: 250px;
+      margin: 0;
+      text-align: center; }
+  /* line 80, top-section.scss */
+  .top-section .logo {
+    letter-spacing: 1px;
+    font-size: 2.5em;
+    font-family: 'Mukta', sans-serif; }
+  /* line 86, top-section.scss */
+  .top-section .nav-item {
+    text-align: center; }
+  /* line 90, top-section.scss */
+  .top-section .nav-link {
+    padding: 20px !important; }
+    /* line 93, top-section.scss */
+    .top-section .nav-link .hover-effect {
+      width: 0px;
+      height: 5px;
+      background-color: white;
+      margin-top: 3px;
+      -webkit-transition: 0.3s ease;
+      transition: 0.3s ease; }
+    /* line 101, top-section.scss */
+    .top-section .nav-link:hover > .hover-effect {
+      width: 100%; }
+  /* line 108, top-section.scss */
+  .top-section .dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.3); }
+  /* line 112, top-section.scss */
+  .top-section .dropdown-item .nav-link {
+    padding: 10px !important; }
+  /* line 119, top-section.scss */
+  .top-section .dropdown-toggle::after {
+    display: none; }
+  /* line 123, top-section.scss */
+  .top-section .dropdown-toggle i {
+    margin-left: 5px; }
+  /* line 128, top-section.scss */
+  .top-section .dropdown-menu {
+    background: transparent;
+    background: rgba(0, 0, 0, 0.45);
+    border: none;
+    right: -20px;
+    left: unset;
+    position: absolute; }
+  /* line 137, top-section.scss */
+  .top-section .banner {
+    height: 450px; }
+  /* line 141, top-section.scss */
+  .top-section .banner-content {
+    gap: 30px; }
+    /* line 144, top-section.scss */
+    .top-section .banner-content button {
+      padding: 10px 15px;
+      font-size: 1.3em;
+      font-family: 'Space Grotesk', sans-serif;
+      border-radius: 50px;
+      letter-spacing: 2px;
+      border: 5px solid #00CAF7;
+      color: #00CAF7;
+      -webkit-transition: 0.3s ease;
+      transition: 0.3s ease; }
+      /* line 154, top-section.scss */
+      .top-section .banner-content button:hover {
+        -webkit-transform: scale(1.1, 1.1);
+                transform: scale(1.1, 1.1);
+        color: #00CAF7;
+        border: 5px solid #00CAF7; }
+      /* line 160, top-section.scss */
+      .top-section .banner-content button:active {
+        border: 5px solid #00CAF7;
+        color: #00CAF7 !important;
+        -webkit-box-shadow: 0px 0px 15px 0px #00CAF7;
+                box-shadow: 0px 0px 15px 0px #00CAF7;
+        -webkit-transform: scale(0.9, 0.9);
+                transform: scale(0.9, 0.9); }
+
+/* line 170, top-section.scss */
+.deleted {
+  display: none !important; }
+
+/*# sourceMappingURL=top-section.css.map */

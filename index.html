@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Selit</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="Styles/base/common.css">
+	<link rel="stylesheet" href="Styles/components/top-section.css">
+	<link rel="stylesheet" href="Styles/components/products.css">
+	<link rel="stylesheet" href="Styles/components/product-details.css">
+	<link rel="stylesheet" href="Styles/components/checkoutModal.css">
+	<link rel="stylesheet" href="Styles/components/footer.css">
+	<link rel="stylesheet" href="Styles/base/media-queries.css">
+	<script src="https://kit.fontawesome.com/08c9114e01.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="top-section">
+		<div class="navbar navbar-expand-sm">
+			<div class="container-fluid nav-content">
+				<a href="index.html" class="navbar-brand logo">
+					<h1>Selit</h1>
+				</a>
+				<div class="navbar-nav nav">
+					<div class="nav-item">
+						<a href="index.html" class="nav-link active">
+							Home
+							<div class="hover-effect"></div>
+						</a>
+					</div>
+					<div class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+							Men
+							<i class="fa-solid fa-angle-down"></i>
+							<div class="hover-effect"></div>
+						</a>
+						<div class="dropdown-menu">
+							<div class="dropdown-item"><a href="#" class="nav-link">Shirts</a></div>
+							<div class="dropdown-item"><a href="#" class="nav-link">Trousers</a></div>
+							<div class="dropdown-item"><a href="#" class="nav-link">Shoes</a></div>
+							<div class="dropdown-item"><a href="#" class="nav-link">Accessories</a></div>
+						</div>
+					</div>
+					<div class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+							Women
+							<i class="fa-solid fa-angle-down"></i>
+							<div class="hover-effect"></div>
+						</a>
+						<div class="dropdown-menu">
+							<div class="dropdown-item"><a href="#" class="nav-link">Gowns</a></div>
+							<div class="dropdown-item"><a href="#" class="nav-link">Dresses</a></div>
+							<div class="dropdown-item"><a href="#" class="nav-link">Accessories</a></div>
+						</div>
+					</div>
+					<div class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+							Children
+							<i class="fa-solid fa-angle-down"></i>
+							<div class="hover-effect"></div>
+						</a>
+						<div class="dropdown-menu">
+							<div class="dropdown-item"><a href="#" class="nav-link">Shirts</a></div>
+							<div class="dropdown-item"><a href="#" class="nav-link">Dresses</a></div>
+							<div class="dropdown-item"><a href="#" class="nav-link">Toys</a></div>
+							<div class="dropdown-item"><a href="#" class="nav-link">Accessories</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="cart dropdown">
+					<div class="toggle dropdown-toggle" data-bs-toggle="dropdown">
+						<i class="fa-solid fa-cart-shopping"></i>
+						<span class="number">0</span>
+					</div>
+					<div class="dropdown-menu">
+						<button class="btn btn-danger checkOutBtn" data-bs-toggle="modal" data-bs-target="#checkOutModal">Check out</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="banner container-fluid d-flex justify-content-center align-items-center flex-column">
+			<div class="container d-flex justify-content-center align-items-center flex-column banner-content">
+				<h1>Best Products you can't find anywhere</h1>
+				<a href="#products-container"><button class="btn">Explore</button></a>
+			</div>
+		</div>
+	</div>
+	<div class="main-content d-flex justify-content-center align-items-center">
+		<div class="products-container" id="products-container">
+			<div class="product-search-input d-flex justify-content-center">
+				<input type="text" placeholder="Search for products" class="form-control" id="product-search-input">
+			</div>
+			<h1 class="header">Featured Products</h1>
+			<div class="products row justify-content-center">
+				<div class="product col-sm-3 nosize">
+					<img src="Styles/Images/Products/headphones.jpg" alt="Headphones" class="product-img">
+					<div class="info">
+						<h2 class="name">Headphones</h2>
+						<div class="prices">
+							<p class="our-price">$59.99</p>
+							<s class="list-price">$69.99</s>
+						</div>
+						<button class="btn btn-dark detailsBtn" data-bs-toggle="modal" data-bs-target="#detailsModal">Details</button>
+					</div>
+				</div>
+				<div class="product col-sm-3">
+					<img src="Styles/Images/Products/nike shoe.jpg" alt="Nike Shoes" class="product-img">
+					<div class="info">
+						<h2 class="name">Nike Shoes</h2>
+						<div class="prices">
+							<p class="our-price">$79.99</p>
+							<s class="list-price">$69.99</s>
+						</div>
+						<button class="btn btn-dark detailsBtn" data-bs-toggle="modal" data-bs-target="#detailsModal">Details</button>
+					</div>
+				</div>
+				<div class="product col-sm-3 nosize">
+					<img src="Styles/Images/Products/golden watch.jpg" alt="Golden Watch" class="product-img">
+					<div class="info">
+						<h2 class="name">Golden Watch</h2>
+						<div class="prices">
+							<p class="our-price">$399.99</p>
+							<s class="list-price">$349.99</s>
+						</div>
+						<button class="btn btn-dark detailsBtn" data-bs-toggle="modal" data-bs-target="#detailsModal">Details</button>
+					</div>
+				</div>
+				<div class="product col-sm-3">
+					<img src="Styles/Images/Products/hummel shoe.jpg" alt="Hummel Shoes" class="product-img">
+					<div class="info">
+						<h2 class="name">Hummel Shoes</h2>
+						<div class="prices">
+							<p class="our-price">$249.99</p>
+							<s class="list-price">$219.99</s>
+						</div>
+						<button class="btn btn-dark detailsBtn" data-bs-toggle="modal" data-bs-target="#detailsModal">Details</button>
+					</div>
+				</div>
+				<div class="product col-sm-3 nosize">
+					<img src="Styles/Images/Products/laptop.jpg" alt="Laptop" class="product-img">
+					<div class="info">
+						<h2 class="name">Laptop</h2>
+						<div class="prices">
+							<p class="our-price">$549.99</p>
+							<s class="list-price">$499.99</s>
+						</div>
+						<button class="btn btn-dark detailsBtn" data-bs-toggle="modal" data-bs-target="#detailsModal">Details</button>
+					</div>
+				</div>
+				<div class="product col-sm-3">
+					<img src="Styles/Images/Products/mini watch.jpg" alt="White Mini Watches" class="product-img">
+					<div class="info">
+						<h2 class="name">White Mini Watches</h2>
+						<div class="prices">
+							<p class="our-price">$319.99</p>
+							<s class="list-price">$299.99</s>
+						</div>
+						<button class="btn btn-dark detailsBtn" data-bs-toggle="modal" data-bs-target="#detailsModal">Details</button>
+					</div>
+				</div>
+				<div class="product col-sm-3 nosize">
+					<img src="Styles/Images/Products/rolex watch.jpg" alt="Rolex Watch" class="product-img">
+					<div class="info">
+						<h2 class="name">Rolex Watch</h2>
+						<div class="prices">
+							<p class="our-price">$669.99</p>
+							<s class="list-price">$619.99</s>
+						</div>
+						<button class="btn btn-dark detailsBtn" data-bs-toggle="modal" data-bs-target="#detailsModal">Details</button>
+					</div>
+				</div>
+				<div class="product col-sm-3 nosize">
+					<img src="Styles/Images/Products/football.jpg" alt="Adidas Football" class="product-img">
+					<div class="info">
+						<h2 class="name">Adidas Football</h2>
+						<div class="prices">
+							<p class="our-price">$99.99</p>
+							<s class="list-price">$129.99</s>
+						</div>
+						<button class="btn btn-dark detailsBtn" data-bs-toggle="modal" data-bs-target="#detailsModal">Details</button>
+					</div>
+				</div>
+				<div class="product col-sm-3">
+					<img src="Styles/Images/Products/body cream.jpg" alt="Body Cream" class="product-img">
+					<div class="info">
+						<h2 class="name">Body Cream</h2>
+						<div class="prices">
+							<p class="our-price">$199.99</p>
+							<s class="list-price">$159.99</s>
+						</div>
+						<button class="btn btn-dark detailsBtn" data-bs-toggle="modal" data-bs-target="#detailsModal">Details</button>
+					</div>
+				</div>
+
+				<div class="product col-sm-3">
+					<img src="Styles/Images/Products/white sneakers.jpg" alt="White Sneakers" class="product-img">
+					<div class="info">
+						<h2 class="name">White Sneakers</h2>
+						<div class="prices">
+							<p class="our-price">$159.99</p>
+							<s class="list-price">$99.99</s>
+						</div>
+						<button class="btn btn-dark detailsBtn" data-bs-toggle="modal" data-bs-target="#detailsModal">Details</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--
+		<div class="unfound">
+			<div class="xmark">
+				<i class="fa-solid fa-xmark"></i>
+			</div>
+			<p>No product matches your search</p>
+		</div>
+-->
+	</div>
+	<div class="modal fade modal-xl" id="detailsModal" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-btn-modal modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<div class="product-img">
+						<img src="Styles/Images/Products/headphones.jpg" alt="Headphones" id="details-img">
+					</div>
+					<div class="product-details">
+						<h1 class="product-name">Headphones</h1>
+						<div class="prices">
+							<h3 class="our-price modal-our-price">Our Price: <span>$59.99</span></h3>
+							<h4 class="list-price modal-list-price"><s>List Price: <span>$69.99</span></s></h4>
+						</div>
+						<div class="inputs">
+							<div class="quantity">
+								<label for="quantity">Quantity: </label>
+								<input type="number" class="form-control" id="quantity">
+							</div>
+							<div class="size">
+								<label for="sizes">Size: </label>
+								<select class="form-select" id="sizes">
+									<option value=""></option>
+									<option value="23">23</option>
+									<option value="28">28</option>
+									<option value="35">35</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-dark addToCartBtn">
+						<i class="fa-solid fa-cart-plus"></i>
+						Add To Cart
+					</button>
+					<button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade modal-xl" id="checkOutModal" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-btn-modal modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<h1 class="border-bottom">Check out</h1>
+					<div class="items"></div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="col1">
+			<div class="logo">
+				<a href="index.html" class="logo">
+					<h1 class="logo">Selit</h1>
+				</a>
+			</div>
+			<div class="lang">Language: English</div>
+		</div>
+		<div class="col2">
+			<div class="policies">
+				<a href="#">Privacy</a>
+				<a href="#">Cookie Policy</a>
+			</div>
+			
+			<div class="copyright">
+				Copyright &copy; Judah Oyedele 2023
+			</div>
+			
+			<div class="social-icons">
+				<a href="#"><i class="fa-brands fa-2x fa-instagram"></i></a>
+				<a href="#"><i class="fa-brands fa-2x fa-twitter"></i></a>
+				<a href="#"><i class="fa-brands fa-2x fa-linkedin-in"></i></a>
+				<a href="#"><i class="fa-brands fa-2x fa-youtube"></i></a>
+				<a href="#"><i class="fa-brands fa-2x fa-facebook-f"></i></a>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="JS_Files/product-search.js"></script>
+<script src="JS_Files/product-details.js"></script>
+<script src="JS_Files/checkOutModal.js"></script>
+
+</html>

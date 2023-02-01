@@ -1,0 +1,14 @@
+@import 'variables';
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: #f1efef;
+}
+
+.deleted {
+	display: none !important;
+}

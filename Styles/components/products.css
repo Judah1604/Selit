@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400&family=Poppins:wght@500&family=Space+Grotesk:wght@700&family=Poppins&display=swap");
+/* line 3, products.scss */
+.main-content {
+	margin-top: 30px;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+			flex-direction: column; }
+	/* line 7, products.scss */
+	.main-content .products-container {
+	text-align: center; }
+	/* line 10, products.scss */
+	.main-content .products-container .header {
+		padding: 10px;
+		margin: 0; }
+	/* line 15, products.scss */
+	.main-content .products-container .product-search-input {
+		width: 700px;
+		margin: auto; }
+		/* line 19, products.scss */
+		.main-content .products-container .product-search-input input {
+		padding: 0.7rem 0.8rem;
+		border-radius: 25px;
+		width: 95%;
+		border: 2px solid #ced4da; }
+		/* line 25, products.scss */
+		.main-content .products-container .product-search-input input:focus {
+			border: none;
+			-webkit-box-shadow: none;
+					box-shadow: none;
+			border: 2px solid #373b3e; }
+	/* line 33, products.scss */
+	.main-content .products-container .row {
+		width: 100%;
+		margin: 0; }
+	/* line 38, products.scss */
+	.main-content .products-container .product {
+		text-align: center;
+		background-color: white;
+		width: 350px;
+		height: 450px;
+		padding: 0;
+		border-radius: 10px;
+		margin: 15px;
+		-webkit-transition: 0.2s ease;
+		transition: 0.2s ease; }
+		/* line 48, products.scss */
+		.main-content .products-container .product:hover {
+		-webkit-transform: scale(1.05, 1.05);
+				transform: scale(1.05, 1.05); }
+		/* line 52, products.scss */
+		.main-content .products-container .product img {
+		width: 100%;
+		height: 250px;
+		border-radius: 10px 10px 0px 0px;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s; }
+		/* line 59, products.scss */
+		.main-content .products-container .product .info {
+		padding-top: 20px; }
+		/* line 63, products.scss */
+		.main-content .products-container .product p,
+		.main-content .products-container .product s {
+		font-size: 1.2em;
+		margin: 0; }
+		/* line 69, products.scss */
+		.main-content .products-container .product p {
+		font-size: 1.4em;
+		margin-bottom: 8px; }
+		/* line 74, products.scss */
+		.main-content .products-container .product button {
+		padding: 10px 15px; }
+	/* line 80, products.scss */
+	.main-content .unfound {
+	text-align: center;
+	display: none; }
+	/* line 84, products.scss */
+	.main-content .unfound .xmark {
+		border: 3px solid red;
+		color: red;
+		font-size: 2em;
+		border-radius: 50px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+			-ms-flex-pack: center;
+				justify-content: center;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
+		width: -webkit-fit-content;
+		width: -moz-fit-content;
+		width: fit-content;
+		padding: 10px 15px;
+		margin: auto;
+		margin-bottom: 10px; }
+	/* line 98, products.scss */
+	.main-content .unfound p {
+		font-size: 1.3em; }
+
+/*# sourceMappingURL=products.css.map */
